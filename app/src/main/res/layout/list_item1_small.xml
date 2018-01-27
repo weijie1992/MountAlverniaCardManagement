@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/bedNumTV"
+        android:layout_width="42dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
+        android:layout_toEndOf="@+id/wardNumTV"
+        android:gravity="center_vertical"
+        android:minHeight="60dp"
+        android:text="220A"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/timeTV"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
+
+        android:layout_toEndOf="@+id/bedNumTV"
+        android:gravity="center"
+        android:minHeight="60dp"
+        android:text="22:22"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/iconTV"-->
+    <!--android:layout_width="30dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:layout_toEndOf="@+id/timeTV"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:minHeight="48dp"-->
+    <!--android:text="ISO"-->
+    <!--android:textColor="#000000"-->
+    <!--android:textSize="17sp"-->
+    <!--android:textStyle="bold" />-->
+
+    <TextView
+        android:id="@+id/RemarksTV"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
+        android:layout_toEndOf="@+id/timeTV"
+        android:drawablePadding="4dip"
+        android:gravity="center_vertical"
+        android:minHeight="60dp"
+        android:text="ISO Internal Transfer"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+   >
+
+    <Button
+        android:id="@+id/finishBtn"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="9dp"
+        android:layout_toEndOf="@+id/RemarksTV"
+        android:background="@android:drawable/btn_default"
+        android:text="START" />
+
+    <TextView
+        android:id="@+id/cleanTV"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
+        android:layout_toEndOf="@+id/RemarksTV"
+        android:gravity="center_vertical"
+        android:minHeight="60dp"
+        android:text="To Clean"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/RemarksTV"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:minHeight="48dp"-->
+    <!--android:text="status"-->
+    <!--android:textColor="#000000"-->
+    <!--android:textSize="15dp"-->
+    <!--android:textStyle="bold"-->
+    <!--android:layout_alignParentTop="true"/>-->
+
+</RelativeLayout>

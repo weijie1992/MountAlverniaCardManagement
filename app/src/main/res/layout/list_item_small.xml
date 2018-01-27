@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/cardTV"-->
+        <!--android:layout_width="86dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_toEndOf="@+id/dateTV"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:minHeight="48dp"-->
+        <!--android:text="card"-->
+        <!--android:textColor="@android:color/black"-->
+        <!--android:textSize="15dp"-->
+        <!--android:textStyle="bold" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/dateTV"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:gravity="center"-->
+        <!--android:minHeight="48dp"-->
+        <!--android:text="date"-->
+        <!--android:textColor="#000000"-->
+        <!--android:textSize="15dp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_marginStart="15dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+    <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/timeTV"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_alignBaseline="@+id/cardTV"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_alignBottom="@+id/cardTV"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_centerHorizontal="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:minHeight="48dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textColor="@android:color/black" />&ndash;&gt;-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/statusTV"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:minHeight="48dp"-->
+        <!--android:text="status"-->
+        <!--android:textColor="#000000"-->
+        <!--android:textSize="15dp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_toEndOf="@+id/cardTV"/>-->
+    <TextView
+        android:id="@+id/cardTV"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginLeft="5dp"
+        android:layout_toEndOf="@+id/dateTV"
+        android:gravity="center_vertical"
+        android:minHeight="48dp"
+        android:text="card"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dateTV"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+
+        android:gravity="center_vertical"
+        android:minHeight="48dp"
+        android:text="date"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/timeTV"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignBaseline="@+id/cardTV"-->
+    <!--android:layout_alignBottom="@+id/cardTV"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:minHeight="48dp"-->
+    <!--android:gravity="center"-->
+    <!--android:textColor="@android:color/black" />-->
+
+    <TextView
+        android:id="@+id/statusTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="48dp"
+        android:text="status"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/cardTV" />
+
+</RelativeLayout>

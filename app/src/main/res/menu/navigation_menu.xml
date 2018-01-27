@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+    <item android:id = "@+id/Card"
+
+        android:title="Card Management" />
+
+        <item android:id = "@+id/ManualCleaning"
+
+            android:title="Manual Cleaning Request" />
+
+        <item android:id = "@+id/RoomStatus"
+
+            android:title="SG Ward Room Status" />
+        <item android:id = "@+id/Reports"
+
+            android:title="Reports" />
+
+
+    </group>
+</menu>

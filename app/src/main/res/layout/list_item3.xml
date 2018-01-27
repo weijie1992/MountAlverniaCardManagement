@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/wardNumTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:gravity="center_vertical"
+        android:minHeight="48dp"
+
+        android:textColor="#000000"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bedNumTV"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_toEndOf="@+id/wardNumTV"
+        android:gravity="center_vertical"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/PatientLeaveTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_toEndOf="@+id/bedNumTV"
+        android:gravity="center_vertical"
+        android:minHeight="48dp"
+
+        android:textColor="#000000"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/StartCleaningTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginLeft="11dp"
+
+        android:layout_toEndOf="@+id/PatientLeaveTime"
+        android:gravity="center_vertical"
+        android:minHeight="48dp"
+        android:textColor="@android:color/black"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/EndCleaningTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginLeft="11dp"
+
+        android:layout_toEndOf="@+id/StartCleaningTime"
+        android:gravity="center_vertical"
+        android:minHeight="48dp"
+        android:textColor="@android:color/black"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/descriptionTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginLeft="11dp"
+
+        android:layout_toEndOf="@+id/EndCleaningTime"
+        android:gravity="center_vertical"
+        android:minHeight="48dp"
+        android:textColor="@android:color/black"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
